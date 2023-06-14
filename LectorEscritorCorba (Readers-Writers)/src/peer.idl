@@ -1,0 +1,14 @@
+module interfaz{ 
+    
+    interface Peer{
+        typedef sequence<string> pet;
+        boolean coordinador();
+        boolean lector();
+        boolean working();
+        void changeWorking();
+        void actualizarPeticiones(in pet lectores, in pet escritores);
+        pet obtenerPeticioneslector();
+        pet obtenerPeticionesescritor();
+        
+    }; 
+};

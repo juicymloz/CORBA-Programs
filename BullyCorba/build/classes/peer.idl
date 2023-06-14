@@ -1,0 +1,9 @@
+module interfaz{ 
+    
+    interface Peer{ 
+        
+        void enviarHora(in long id, in string msj);
+        void enviarMensaje(in long id, in string msj);
+        void coordinador();
+    }; 
+};

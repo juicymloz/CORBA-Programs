@@ -1,0 +1,9 @@
+module interfaz{ 
+    
+    interface Peer{ 
+        
+        void enviar_Mensaje(in string msj);
+        oneway void shutdown(); 
+        
+    }; 
+};
